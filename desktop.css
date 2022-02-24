@@ -1,0 +1,178 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.navbar{
+    background-color: chartreuse;
+}
+.logo{
+    text-align: left;
+}
+.heading h1{
+  
+    text-align: center;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu-bar a{
+    padding: 0px 10px;
+    background-color: rgb(70, 119, 20);
+}
+
+           /* navbar design ends here */
+
+
+
+.profile{
+    margin-top: 20px;
+    padding: 20px 10px;
+    position: relative; 
+}
+.description h1{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 3.3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.description p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(5, 5, 126);
+    width: 70%;
+    margin: 0 auto;
+}
+.img1{
+    position: absolute;
+    right: 150px;  
+    height: 180px;
+    width: 180px;
+    transition: 3s transform ;
+}
+.img1:hover{
+    transform:scale(1.5,1.4);
+}
+
+           /* profile design ends here */
+
+
+
+.about-me{
+    height: 600px;
+}
+.my-img img{
+    margin-top: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: none;
+    width: 250px;
+    height: 250px;
+}
+.details p{
+    text-align:justify ;
+    margin: 15px;
+    font-size: 20px;
+}
+.details a{
+    text-decoration: none;
+}
+.details a:hover{
+    color: rgb(167, 7, 7);
+}
+.cv-btn{
+    background-color: rgb(80, 68, 68);
+    color: wheat;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 7px;
+}
+.cv-btn:hover{
+    background-color: rgb(46, 41, 41);
+}
+
+
+                /* about me design ends here  */
+
+
+
+.card1{  
+    width: 430px;
+}
+.card1:hover{
+    background-color: rgb(47, 47, 245);
+    box-shadow: 7px 7px 5px;
+}
+.card2{ 
+    width: 430px;
+}
+.card2:hover{
+    background-color: rgb(145, 214, 7);
+    box-shadow: 7px 7px 5px;
+}
+.card3{ 
+    width: 430px;
+}
+.card3:hover{
+    background-color: rgb(250, 165, 7);
+    box-shadow: 7px 7px 5px;
+}
+
+
+                  /* professional ends here  */
+
+
+
+ .contact-me button{
+     text-align: center;
+     height: 27px;
+     width: 60px;
+     padding: 3px;
+     border: none;
+     border-radius: 2px;
+     background-color: rgb(219, 218, 218);
+     cursor: pointer;
+}
+.contact-me button:hover{
+    border: 0.5px solid black;
+    background-color: rgb(151, 149, 149);
+}
+
+
+.contact-btn{
+    margin-top: 50px;
+}
+.btn button:hover{
+    background-color: silver;
+}
+               
+ /* contact form ends here  */
+
+
+.footer{
+    height: 100px;
+}
+.footer-menu{
+    margin-top: 20px;
+}
+.footer a{
+    display: inline;
+    margin: 0 8px;
+}
+
+.footer-desc p{
+    font-size: 1rem;
+}
